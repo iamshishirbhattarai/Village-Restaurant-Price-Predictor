@@ -341,7 +341,7 @@ from datetime import datetime
 now = datetime.now()
 
 # Convert the current time to 12-hour format with AM/PM
-current_time = now.strftime("%-I%p")
+current_time = now.strftime("%I%p")
 
 if current_time in busy_time:
     is_busy = True
